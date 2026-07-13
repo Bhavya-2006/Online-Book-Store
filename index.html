@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Book-Nook</title>
+  </head>
+  <body>
+    <div class="intro">
+  <div class="intro-content">
+    <svg width="70" height="70" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">
+      <path d="M2 6 L14 4 L14 26 L2 24 Z"/>
+      <path d="M30 6 L18 4 L18 26 L30 24 Z"/>
+      <path d="M16 4 L16 26"/>
+    </svg>
+    <p>Book-Nook</p>
+  </div>
+</div>
+<div class="promo-bar">
+  Free shipping on orders over ₹499 — shop today!
+</div>
+    <header>
+      <a href="index.html" class="brand"> 
+      <img src="Book-Nook_logo.png" alt="Book-Nook logo">
+      Book-Nook
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="bestsellers.html">Best sellers</a>
+        <a href="ebooks.html">eBooks &amp; Nook</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="header-actions">
+        <input type="text" placeholder="🔍Search by Book title or author" />
+        <a href="wishlist.html">❤️</a>
+        <a href="cart.html">🛒</a>
+        <a href="login.html">👤 Sign in</a>
+      </div>
+    </header>
+    <section class="hero hero-banner">
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <span class="eyebrow">This Month's Picks</span>
+    <h1>Stories worth staying up for.</h1>
+    <p>Hand-picked novels, thrillers, and page-turners — curated the way a reader thinks, not the way a warehouse does.</p>
+    <a href="books.html" class="btn">Shop Now</a>
+  </div>
+</section>
+<section class="featured">
+  <h2>Featured This Month</h2>
+  <div class="book-grid">
+  <div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg" alt="The Picture of Dorian Gray cover">
+  <span class="genre-tag">Horror</span>
+  <h3>The Picture of Dorian Gray</h3>
+  <p class="author">Oscar Wilde</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.1</div>
+  <div class="price"><del>₹540</del><span class="new-price">₹399</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780385721790-L.jpg" alt="Atonement cover">
+  <span class="genre-tag">Historical Fiction</span>
+  <h3>Atonement</h3>
+  <p class="author">Ian McEwan</p>
+  <div class="rating">★★★★☆ <span class="rating-num">3.9</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780553212419-L.jpg" alt="Sherlock Holmes cover">
+  <span class="genre-tag">Mystery</span>
+  <h3>Sherlock Holmes: The Complete Novels and Stories</h3>
+  <p class="author">Arthur Conan Doyle</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.3</span></div>
+  <div class="price"><del>₹525</del><span class="new-price">₹399</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9788129136763-L.jpg" alt="Half Girlfriend cover">
+  <span class="genre-tag">Romance</span>
+  <h3>Half Girlfriend</h3>
+  <p class="author">Chetan Bhagat</p>
+  <div class="rating">★★★☆☆ <span class="rating-num">3.2</span></div>
+  <div class="price"><del>₹250</del><span class="new-price">₹180</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780141439600-L.jpg" alt="A Tale of Two Cities cover">
+  <span class="genre-tag">Adventure</span>
+  <h3>A Tale of Two Cities</h3>
+  <p class="author">Charles Dickens</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.0</div>
+  <div class="price"><del>₹610</del><span class="new-price">₹450</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780141321004-L.jpg" alt="Treasure Island cover">
+  <h3>Treasure Island</h3>
+  <span class="genre-tag">Adventure</span>
+  <p class="author">Robert Louis Stevenson</p>
+  <div class="rating">★★★★☆ <span class="rating-num">3.9</div>
+  <div class="price"><del>₹500</del><span class="new-price">₹380</span></div>
+</div>
+
+  </div>
+</section>
+<section class="genres">
+  <h2>Browse by Genre</h2>
+
+  <div class="genre-grid">
+
+    <a href="books.html" class="genre-card">
+      <span class="genre-icon">🐉</span>
+      <p>Fantasy</p>
+    </a>
+
+    <a href="books.html" class="genre-card">
+      <span class="genre-icon">🔍</span>
+      <p>Mystery</p>
+    </a>
+
+    <a href="books.html" class="genre-card">
+      <span class="genre-icon">💕</span>
+      <p>Romance</p>
+    </a>
+
+    <a href="books.html" class="genre-card">
+      <span class="genre-icon">🧭</span>
+      <p>Adventure</p>
+    </a>
+
+    <a href="books.html" class="genre-card">
+      <span class="genre-icon">🎃</span>
+      <p>Horror</p>
+    </a>
+
+  </div>
+</section>
+<section class="shelf">
+  <h2>Famous Authors</h2>
+  <div class="shelf-row">
+
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/isbn/9780451526922-L.jpg" alt="Hamlet cover">
+      <span class="genre-tag">Classic Drama</span>
+      <h3>Hamlet</h3>
+      <p class="author">William Shakespeare</p>
+      <div class="rating">★★★★☆ <span class="rating-num">4.2</span></div>
+      <div class="price"><del>₹350</del><span class="new-price">₹275</span></div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/isbn/9789380658742-L.jpg" alt="The Immortals of Meluha cover">
+      <span class="genre-tag">Historical Fantasy</span>
+      <h3>The Immortals of Meluha</h3>
+      <p class="author">Amish Tripathi</p>
+      <div class="rating">★★★★☆</div>
+      <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg" alt="Animal Farm cover">
+      <span class="genre-tag">Political Satire</span>
+      <h3>Animal Farm</h3>
+      <p class="author">George Orwell</p>
+      <div class="rating">★★★★☆ <span class="rating-num">3.9</span></div>
+      <div class="price"><del>₹299</del><span class="new-price">₹225</span></div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/isbn/9780553213690-L.jpg" alt="Metamorphosis cover">
+      <span class="genre-tag">Classic Fiction</span>
+      <h3>The Metamorphosis</h3>
+      <p class="author">Franz Kafka</p>
+      <div class="rating">★★★★☆ <span class="rating-num">3.8</span></div>
+      <div class="price"><del>₹250</del><span class="new-price">₹190</span></div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/isbn/9789386224583-L.jpg" alt="Sita: Warrior of Mithila cover">
+      <span class="genre-tag">Historical Fantasy</span>
+      <h3>Sita: Warrior of Mithila</h3>
+      <p class="author">Amish Tripathi</p>
+      <div class="rating">★★★★☆</div>
+      <div class="price"><del>₹550</del><span class="new-price">₹449</span></div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/isbn/9781400096206-L.jpg" alt="The Palace of Illusions cover">
+      <span class="genre-tag">Mythology</span>
+      <h3>The Palace of Illusions</h3>
+      <p class="author">Chitra Banerjee Divakaruni</p>
+      <div class="rating">★★★★☆ <span class="rating-num">4.2</span></div>
+      <div class="price"><del>₹399</del><span class="new-price">₹299</span></div>
+    </div>
+
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/isbn/9781974700547-L.jpg" alt="Demon Slayer Vol 3 cover">
+      <span class="genre-tag">Historical Action</span>
+      <h3>Demon Slayer, Vol. 3</h3>
+      <p class="author">Koyoharu Gotouge</p>
+      <div class="rating">★★★★☆</div>
+      <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+    </div>
+
+</div>
+  </div>
+</section>
+<section class="shelf">
+  <h2>Latest Arrivals</h2>
+  <div class="shelf-row">
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9789356290976-L.jpg" alt="Raavan: Enemy of Aryavarta cover">
+  <span class="genre-tag">Historical Fantasy</span>
+  <h3>Raavan: Enemy of Aryavarta</h3>
+  <p class="author">Amish Tripathi</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.0</span></div>
+  <div class="price"><del>₹599</del><span class="new-price">₹499</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg" alt="1984 cover">
+  <span class="genre-tag">Adventure</span>
+  <h3>1984</h3>
+  <p class="author">George Orwell</p>
+  <div class="rating">★★★★☆<span class="rating-num">4.2</span></div>
+    <div class="price"><del>₹599</del><span class="new-price">₹450</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780141439556-L.jpg" alt="Wuthering Heights cover">
+  <span class="genre-tag">Romance</span>
+  <h3>Wuthering Heights</h3>
+  <p class="author">Emily Brontë</p>
+  <div class="rating">★★★★☆ <span class="rating-num">3.9</div>
+  <div class="price"><del>₹560</del><span class="new-price">₹410</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780142437247-L.jpg" alt="Moby Dick cover">
+  <span class="genre-tag">Adventure</span>
+  <h3>Moby Dick</h3>
+  <p class="author">Herman Melville</p>
+  <div class="rating">★★★☆☆ <span class="rating-num">3.5</span></div>
+  <div class="price"><del>₹625</del><span class="new-price">₹475</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9788129136763-L.jpg" alt="Half Girlfriend cover">
+  <span class="genre-tag">Romance</span>
+  <h3>Half Girlfriend</h3>
+  <p class="author">Chetan Bhagat</p>
+  <div class="rating">★★★☆☆ <span class="rating-num">3.2</span></div>
+  <div class="price"><del>₹250</del><span class="new-price">₹180</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781421501703-L.jpg" alt="Death Note Vol 3 cover">
+  <span class="genre-tag">Psychological Thriller</span>
+  <h3>Death Note, Vol. 3</h3>
+  <p class="author">Tsugumi Ohba</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.5</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780141321073-L.jpg" alt="Alice in Wonderland cover">
+  <span class="genre-tag">Fantasy</span>
+  <h3>Alice in Wonderland</h3>
+  <p class="author">Lewis Carroll</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.1</span></div>
+  <div class="price"><del>₹550</del><span class="new-price">₹399</span></div>
+</div>
+
+  </div>
+</section>
+
+<section class="shelf">
+  <h2>People's Favourites</h2>
+  <div class="shelf-row">
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780241252086.jpg" alt="White Nights cover">
+  <span class="genre-tag">Classic Fiction</span>
+  <h3>White Nights</h3>
+  <p class="author">Fyodor Dostoevsky</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.0</span></div>
+  <div class="price"><del>₹250</del><span class="new-price">₹190</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780143039655-L.jpg" alt="Malgudi Days cover">
+  <span class="genre-tag">Short Stories</span>
+  <h3>Malgudi Days</h3>
+  <p class="author">R. K. Narayan</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.2</span></div>
+  <div class="price"><del>₹350</del><span class="new-price">₹275</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg" alt="Pride and Prejudice cover">
+  <span class="genre-tag">Romance</span>
+  <h3>Pride and Prejudice</h3>
+  <p class="author">Jane Austen</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.3</span></div>
+  <div class="price"><del>₹700</del><span class="new-price">₹560</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9789385152146-L.jpg" alt="Ram: Scion of Ikshvaku cover">
+  <span class="genre-tag">Historical Fantasy</span>
+  <h3>Ram: Scion of Ikshvaku</h3>
+  <p class="author">Amish Tripathi</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.0</span></div>
+  <div class="price"><del>₹499</del><span class="new-price">₹399</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9780385721790-L.jpg" alt="Atonement cover">
+  <span class="genre-tag">Historical Fiction</span>
+  <h3>Atonement</h3>
+  <p class="author">Ian McEwan</p>
+  <div class="rating">★★★★☆ <span class="rating-num">3.9</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781400033416-L.jpg" alt="Beloved cover">
+  <span class="genre-tag">Historical Fiction</span>
+  <h3>Beloved</h3>
+  <p class="author">Toni Morrison</p>
+  <div class="rating">★★★★☆ <span class="rating-num">3.9</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9789380658742-L.jpg" alt="The Immortals of Meluha cover">
+  <span class="genre-tag">Historical Fantasy</span>
+  <h3>The Immortals of Meluha</h3>
+  <p class="author">Amish Tripathi</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.2</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+  </div>
+</section>
+
+<section class="shelf">
+  <h2>Anime &amp; Manga</h2>
+  <div class="shelf-row">
+
+    <div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781421501680-L.jpg" alt="Death Note Vol 1 cover">
+  <span class="genre-tag">Psychological Thriller</span>
+  <h3>Death Note, Vol. 1</h3>
+  <p class="author">Tsugumi Ohba</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.6</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781974700547-L.jpg" alt="Demon Slayer Vol 3 cover">
+  <span class="genre-tag">Historical Action</span>
+  <h3>Demon Slayer, Vol. 3</h3>
+  <p class="author">Koyoharu Gotouge</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.6</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781421501697-L.jpg" alt="Death Note Vol 2 cover">
+  <span class="genre-tag">Psychological Thriller</span>
+  <h3>Death Note, Vol. 2</h3>
+  <p class="author">Tsugumi Ohba</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.6</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781974700530-L.jpg" alt="Demon Slayer Vol 2 cover">
+  <span class="genre-tag">Historical Action</span>
+  <h3>Demon Slayer, Vol. 2</h3>
+  <p class="author">Koyoharu Gotouge</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.5</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781421501703-L.jpg" alt="Death Note Vol 3 cover">
+  <span class="genre-tag">Psychological Thriller</span>
+  <h3>Death Note, Vol. 3</h3>
+  <p class="author">Tsugumi Ohba</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.5</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781569319017-L.jpg" alt="One Piece Vol 1 cover">
+  <span class="genre-tag">Fantasy Priates</span>
+  <h3>One Piece, Vol. 1: Romance Dawn</h3>
+  <p class="author">Eiichiro Oda</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.6</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+<div class="book-card">
+  <img src="https://covers.openlibrary.org/b/isbn/9781974700523-L.jpg" alt="Demon Slayer Vol 1 cover">
+  <span class="genre-tag">Historical Action</span>
+  <h3>Demon Slayer, Vol. 1</h3>
+  <p class="author">Koyoharu Gotouge</p>
+  <div class="rating">★★★★☆ <span class="rating-num">4.4</span></div>
+  <div class="price"><del>₹450</del><span class="new-price">₹350</span></div>
+</div>
+
+  </div>
+</section>
+
+  </div>
+</section>
+<section class="trust-strip">
+  <div class="trust-item">
+    <span class="trust-icon">🚚</span>
+    <p>Free Shipping<br><span>On orders over ₹499</span></p>
+  </div>
+  <div class="trust-item">
+    <span class="trust-icon">↩️</span>
+    <p>Easy Returns<br><span>7-day return policy</span></p>
+  </div>
+  <div class="trust-item">
+    <span class="trust-icon">🔒</span>
+    <p>Secure Payment<br><span>100% protected checkout</span></p>
+  </div>
+  <div class="trust-item">
+    <span class="trust-icon">💬</span>
+    <p>24/7 Support<br><span>We're always here to help</span></p>
+  </div>
+</section>
+
+<section class="newsletter">
+  <h2>Never Miss a New Release</h2>
+  <p>Join our list for new arrivals, exclusive discounts, and reader recommendations.</p>
+  <form class="newsletter-form">
+    <input type="email" placeholder="Enter your email">
+    <button type="button" class="btn">Subscribe</button>
+  </form>
+</section>
+<footer>
+  <div class="footer-col">
+    <p class="footer-brand">Book-Nook</p>
+    <p>Stories worth staying up for.</p>
+  </div>
+
+  <div class="footer-col">
+    <h4>Shop</h4>
+    <a href="books.html">All Books</a>
+    <a href="bestsellers.html">Best Sellers</a>
+    <a href="ebooks.html">eBooks &amp; Nook</a>
+  </div>
+
+  <div class="footer-col">
+    <h4>Account</h4>
+    <a href="login.html">Sign In</a>
+    <a href="cart.html">Cart</a>
+    <a href="wishlist.html">Wishlist</a>
+  </div>
+
+  <div class="footer-col">
+    <h4>Company</h4>
+    <a href="about.html">About Us</a>
+  </div>
+</footer>
+  </body>
+</html>
