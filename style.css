@@ -620,3 +620,29 @@ footer a:hover {
   color: var(--text);
   font-family: 'Lora', serif;
 }
+.filter-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.filter-chips .chip {
+  cursor: pointer;
+  user-select: none;
+}
+#filter-fantasy:checked ~ .book-grid .book-card:not(.fantasy),
+#filter-mystery:checked ~ .book-grid .book-card:not(.mystery),
+#filter-romance:checked ~ .book-grid .book-card:not(.romance),
+#filter-adventure:checked ~ .book-grid .book-card:not(.adventure),
+#filter-horror:checked ~ .book-grid .book-card:not(.horror) {
+  display: none;
+}
+#filter-all:checked ~ .filter-chips label[for="filter-all"],
+#filter-fantasy:checked ~ .filter-chips label[for="filter-fantasy"],
+#filter-mystery:checked ~ .filter-chips label[for="filter-mystery"],
+#filter-romance:checked ~ .filter-chips label[for="filter-romance"],
+#filter-adventure:checked ~ .filter-chips label[for="filter-adventure"],
+#filter-horror:checked ~ .filter-chips label[for="filter-horror"] {
+  background: #2b2140;
+  color: #fff;
+  border-color: #2b2140;
+}
